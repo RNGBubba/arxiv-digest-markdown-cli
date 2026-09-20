@@ -26,7 +26,7 @@ DoneMeans receipt
 -----------------
 Ticket: `t_57c56b596be0`
 Receipt: `receipts/t_57c56b596be0.json`
-Code SHA: `a3cbfa65bcbd2f9ab778788aa7b4928ca03ae187`
+Code SHA: `aca0e3657ec1bd768c45f6becea397b2a0f16e0a`
 Command: `uv run pytest -q`
 Exit: `0`
 Artifact: `artifacts/pytest.txt`
