@@ -1,0 +1,21 @@
+[project]
+name = "arxiv-digest-cli"
+version = "0.1.0"
+description = "Format legal arXiv API searches into concise Markdown digests."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "defusedxml>=0.7.1",
+]
+
+[project.scripts]
+arxiv-digest = "arxiv_digest_cli.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
