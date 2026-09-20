@@ -22,8 +22,16 @@ The working artifact is this repository's arxiv_digest package, CLI, README, pyp
 
 Verification receipt
 --------------------
-Receipt will be recorded after the final test command and repository SHA are available.
+DoneMeans receipt
+-----------------
+Ticket: `t_57c56b596be0`
+Receipt: `receipts/t_57c56b596be0.json`
+Code SHA: `a3cbfa65bcbd2f9ab778788aa7b4928ca03ae187`
+Command: `uv run pytest -q`
+Exit: `0`
+Artifact: `artifacts/pytest.txt`
+Receipt verification: passed with `uv run donemeans --root /home/vboxuser/projects/overnight-revenue/bets/arxiv-digest-cli receipt verify /home/vboxuser/projects/overnight-revenue/bets/arxiv-digest-cli/receipts/t_57c56b596be0.json`
 
 GitHub
 ------
-A new public repository is created only after local tests and the DoneMeans receipt succeed.
+New public repository: https://github.com/RNGBubba/arxiv-digest-markdown-cli
